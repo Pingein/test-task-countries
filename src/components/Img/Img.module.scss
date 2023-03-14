@@ -1,0 +1,12 @@
+.imgContainer {
+    position: relative;
+    overflow: hidden;
+    // width: 50%;
+    // padding-bottom: calc(1080 / 1920 * 50%); // (img_height / img_width * width_on_page)
+}
+
+.img {
+    //position: absolute;
+    width: 100%;
+    height: auto;
+}

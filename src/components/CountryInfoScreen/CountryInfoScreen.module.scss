@@ -1,0 +1,37 @@
+.nameContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin: 0;
+  font-size: 3em;
+}
+
+.infoScreen {
+  top: 5%;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+
+  min-width: 400px;
+
+  position: fixed;
+  background-color: #F0F0F0;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+  box-shadow: //0px 0px 25px #000000,
+              0px 0px 500px #000000;
+}
+
+
+.leftSide {
+
+}
+
+// .rightSide {
+//   background-color: red;
+// }
