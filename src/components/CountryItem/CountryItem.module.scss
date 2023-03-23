@@ -16,7 +16,6 @@
     &:hover {
         background-color: var(--country-item-color-hover);
     }
-
 }
 
 .languageList {
@@ -47,17 +46,6 @@
     justify-content: space-between;
     width: 100%;
 }
-
-.flag {
-    user-select: none;
-    outline: 1px solid var(--border-color);
-    border-radius: 5px;
-    max-height: 1.2em;
-    width: auto;
-}
-
-
-
 
 .imageContainer {
     position: relative;
