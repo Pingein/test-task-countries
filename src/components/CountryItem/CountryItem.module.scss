@@ -1,8 +1,76 @@
 .countryItem {
-    padding: 2px;
+    background-color: var(--country-item-color);
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+.countryBar {
+    cursor: pointer;
+    
+    gap: 0.25em;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: baseline;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: var(--country-item-color-hover);
+    }
+
+}
+
+.languageList {
+    margin: 0px;
+    padding-left: 1em;
+    list-style: none;
+}
+
+.countryExpansion {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 0.75em;
+    padding: 0.2rem;
+}
+
+.countryCode {
+    font-weight: 500;
+}
+
+.countryName {
+    cursor: text;
+}
+
+.nameContainer {
+    display: flex;
+    gap: 3px;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .flag {
-    max-height: 20px;
+    user-select: none;
+    outline: 1px solid var(--border-color);
+    border-radius: 5px;
+    max-height: 1.2em;
     width: auto;
+}
+
+
+
+
+.imageContainer {
+    position: relative;
+    width: 1.8rem;
+    padding-bottom: calc(9 / 16 * 1.8rem);
+
+    overflow: hidden;
+    outline: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: auto;
 }
