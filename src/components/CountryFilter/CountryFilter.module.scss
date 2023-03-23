@@ -1,7 +1,8 @@
-.input {
-    color: inherit;
+.input  {
     padding: 3px;
-    border-radius: 5px;
     border: 1px solid var(--border-color);
+    border-radius: 5px;
+    
     background-color: var(--country-item-color);
+    color: inherit;
 }

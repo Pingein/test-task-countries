@@ -1,16 +1,18 @@
 .countryItem {
-    background-color: var(--country-item-color);
-    border-radius: 5px;
     border: 1px solid var(--border-color);
+    border-radius: 5px;
+    
+    background-color: var(--country-item-color);
 }
 
 .countryBar {
     cursor: pointer;
-    
-    gap: 0.25em;
-    padding: 0.2rem;
+
     display: flex;
     justify-content: baseline;
+    gap: 0.25em;
+
+    padding: 0.2rem;
     border-radius: 5px;
 
     &:hover {
@@ -21,6 +23,7 @@
 .languageList {
     margin: 0px;
     padding-left: 1em;
+
     list-style: none;
 }
 
@@ -28,8 +31,10 @@
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-    font-size: 0.75em;
+
     padding: 0.2rem;
+
+    font-size: 0.75em;
 }
 
 .countryCode {
@@ -42,23 +47,26 @@
 
 .nameContainer {
     display: flex;
-    gap: 3px;
     justify-content: space-between;
+    gap: 3px;
+
     width: 100%;
 }
 
 .imageContainer {
     position: relative;
+
     width: 1.8rem;
     padding-bottom: calc(9 / 16 * 1.8rem);
+    border-radius: 5px;
 
     overflow: hidden;
     outline: 1px solid var(--border-color);
-    border-radius: 5px;
 }
 
 .image {
     position: absolute;
+
     width: 100%;
     height: auto;
 }
